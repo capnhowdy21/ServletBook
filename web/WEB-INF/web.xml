@@ -56,6 +56,10 @@
         <servlet-name>ShoppingCartServlet</servlet-name>
         <servlet-class>app02a.httpsession.ShoppingCartServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>EmployeeServlet</servlet-name>
+        <servlet-class>app04a.servlet.EmployeeServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>MyServlet</servlet-name>
         <url-pattern>/MyServlet</url-pattern>
@@ -100,6 +104,10 @@
         <url-pattern>/viewProductDetails</url-pattern>
         <url-pattern>/addToCart</url-pattern>
         <url-pattern>/viewCart</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet</servlet-name>
+        <url-pattern>/employee</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
